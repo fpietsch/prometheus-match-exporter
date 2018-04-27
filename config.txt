@@ -1,0 +1,3 @@
+DB_STATE /tmp/test.txt error
+DB_LOG /tmp/test.txt log
+DB_TEST /tmp/test.txt affe

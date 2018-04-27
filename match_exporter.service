@@ -1,0 +1,9 @@
+[Unit]
+Description=Match Exporter for Prometheus
+
+[Service]
+Type=simple
+ExecStart=/etc/match_exporter/match_exporter.py
+
+[Install]
+WantedBy=multi-user.target
